@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Webpage</title>
+		<link href="styles.css" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+		<script src="script.js" defer></script>
+		<script src="https://kit.fontawesome.com/588034ead6.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+		integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+		crossorigin="anonymous" referrerpolicy="no-referrer" />	
+	</head>
+
+	<body>
+		<div class = "border">
+			<div class = "vertical-line"></div>
+			<div class = "right-vertical"></div>
+			<header>
+				<a href="index.html"> <img class = "logo" src="main_img.jpg" alt="picture"></a>
+				<nav class = "nav">
+					<a class = "first" href="index.html">Home</a>
+					<a class = "second" href="About.html">About</a>
+					<a class = "third" href="Projects.html">Projects</a>
+				</nav>
+				<img class = "moon" src="moon.png" id="icon">
+			</header>
+			<section class = "info">
+				<div class = "section">
+					<div class = "write">
+						<h1 class = "projects">Projects</h1>
+						<div class = projects_lines></div>
+						<h2 class = "project 5"> Player Comparison/Social Media App </h2>
+						<p class = "app"> <a href="https://github.com/adarshpets"> I created a dynamic app using React-Native for comparing soccer players, designed an intuitive UI for sharing insightful
+							 "hot takes," and established seamless messaging for private communication. These features were optimized for both iOS and Android
+							  platforms. I implemented private and public communication UI, integrating private messaging and posts akin to Twitter. Utilizing
+							   React Native and JavaScript, I developed the app, styling it with CSS for a polished finish. </a> 
+						</p>
+						<h2 class = "project 1"> Machine Learning AI </h2>
+						<p class = "project 2">  <a href="https://github.com/adarshpets"> In this project I built a machine learning ai in C++ that takes in all the paizza posts from last semesters 
+							and learns from it, and uses that knowledge to predict with topics future piazza posts are about. 
+							By implementing the Map and BST Libabry I was able to create a classifier that can classify Piazza 
+							posts based on there topics. The classifier built was a simplified version of a “Multi-Variate Bernoulli Naive Bayes Classifier” 
+							and used probolity to predict the topics of future Piazza posts. Through the use of this method I was able to make the classifer 
+							about 83-87% accurate.</a>
+						</p>
+						<h2 class = "project 3"> Computer Vision </h2>
+						<p class = "computer"> <a href="https://github.com/adarshpets"> In this project I built a image resizing program in C++ that makes any image smaller using the 
+							seam-curving algorithm. The algroithm works by finidng and removing "seams" in image that pass through 
+							the lease important pixels. By making a Matrix and Image ATD that keeps track of the image pixels I was able to compute the energy and the value of the matrix of each pixel in matrix and find
+							the minimal cost seam and remove it.</a>
+						</p>
+						<h2 class = "project 4"> This Website </h2>
+						<p class="website"> <a href="">In this project I built my own personl webiste to showcase my work over the years! 
+							I used HTML and CSS to make the format of this webiste and used react.js to add effects and style 
+							to make the webiste more appealing user-interface and used Netlify to deploy this website.</a>
+						</p>
+
+						<h1 class = "skill-set"> Skills </h1>
+						<div class = projects_lines></div>
+						<h3 class = "skills"> Languages: JavaScript, C++/C, Python, HTML, CSS, react.js, Matlab, LiTex</h3>
+						<h3 class = "frameworks"> Frameworks: React, React-Native </h3>
+						<h3 class = "developer-tools">Developer-tools: Git, VS-Ccode, Visual-Studio, Xcode, PyCharm, Idle</h3>
+
+						<div class = "lines"></div>
+						<div class = "icons">
+							<a class = "github" href="https://github.com/adarshpets"><i class = "fa-brands fa-github" ></i></a>
+							<a class = "linkden" href="https://www.linkedin.com/in/adarsh-pettappa/"><i class="fa-brands fa-linkedin"></i></a>
+							<a class = "email" href="mailto:padarsh@umich.edu"><i class="fa-solid fa-envelope"></i></a>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<footer class = "sticky">
+				<div class = "white-line"></div>
+				<nav class = "footerNav">
+					<ul class = "footer">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="About.html">About</a></li>
+						<li><a href="Projects.html">Projects</a></li>
+					</ul>
+				</nav>
+				<p class = "credits"> 
+					&copy 2023 Adarsh Pettappa. All rights reserved. <br>
+					Built with React, JavaScript, Html, CSS and deployed on Netlify.
+				</p>
+			</footer>
+		</div>
+	</body>
+</html>
